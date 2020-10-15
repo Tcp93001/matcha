@@ -13,7 +13,7 @@ body {
   color: #025157;
   font-weight: bold;
   text-align: center;
-  font-size: 52px;
+  font-size: 60px;
   font-family: "Alegreya", serif;
 }
 
@@ -246,4 +246,64 @@ body {
 .features .feature-card .feature-image img {
   margin-top: 0;
   height: 100%;
+}
+
+@media (max-width: 425px) {
+  .navbar, .actions {
+    display: none;
+  }
+
+  .main {
+    margin-top: 100px;
+  }
+
+  .main h1 {
+    font-size: 30px;
+  }
+
+  .banner > img {
+    width: 100%;
+  }
+
+  .promo {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .explanatory-video > video {
+    width: 100%;
+  }
+
+  .publish {
+    margin-top: 0;
+  }
+
+  .publish > h3 {
+    font-size: 25px;
+    line-height: 1.2;
+  }
+
+  .publish > form {
+    flex-direction: column;
+  }
+
+  .publish > form > div {
+    height: 50px;
+    margin-top: 10px;
+  }
+
+  .publish > form > div > input {
+    width: 65%;
+  }
+
+  .features {
+    grid-template: repeat(4, 1fr) / 1fr;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .feature-image {
+    display: none;
+  }
+
 }
