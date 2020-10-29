@@ -1,0 +1,85 @@
+body {
+  background-color: #fffbf7;
+  margin: 0px;
+  padding: 0px;
+}
+
+.main {
+  margin-top: 140px;
+  padding: 10px;
+}
+
+.main h1 {
+  color: #025157;
+  font-weight: bold;
+  text-align: center;
+  font-size: 60px;
+  font-family: "Alegreya", serif;
+}
+
+
+.main form {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.texto_centrado {
+  text-align: center;
+  color: #46484c;
+}
+
+.main button {
+  color: #fff;
+  background-color: #025157;
+  height: 45px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border: none;
+}
+
+.main input {
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  height: 45px;
+  margin-right: -5px;
+  border: 1px solid #c6c6c6;
+  padding: 0 5px;
+}
+
+.main .banner {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.main .grey-text {
+  color: #a6a6a6;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.header {
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 0;
+  height: 45px;
+  font-family: sans-serif;
+}
+
+.header > * {
+  display: inline-block;
+  font-size: 16px;
+  vertical-align: middle;
+  height: 100%;
+  line-height: 45px;
+}
+
+.navbar {
+  text-align: center;
+  color: #025157;
+  font-weight: 500;
+  background-color: #fffbf7;
+}

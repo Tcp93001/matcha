@@ -1,4 +1,7 @@
 @use 'global' as *;
+@use 'navbar' as *;
+@use 'video' as *;
+@use 'ejercicio' as *;
 
 .blog {
   background-color: $white;
